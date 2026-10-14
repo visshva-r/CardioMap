@@ -1,0 +1,22 @@
+{
+  "Cath": {
+    "selected_model": "random_forest",
+    "oof_roc_auc_5fold": 0.9167198808003406,
+    "oof_accuracy_5fold": 0.8382838283828383
+  },
+  "LAD": {
+    "selected_model": "random_forest",
+    "oof_roc_auc_5fold": 0.8437584073177294,
+    "oof_accuracy_5fold": 0.7821782178217822
+  },
+  "LCX": {
+    "selected_model": "lightgbm",
+    "oof_roc_auc_5fold": 0.7510047497259773,
+    "oof_accuracy_5fold": 0.7062706270627063
+  },
+  "RCA": {
+    "selected_model": "random_forest",
+    "oof_roc_auc_5fold": 0.7087394411955816,
+    "oof_accuracy_5fold": 0.6765676567656765
+  }
+}

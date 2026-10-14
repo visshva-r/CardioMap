@@ -16,6 +16,7 @@ cd Project
 pip install -r requirements.txt
 python -m ml.train
 python -m ml.explain
+python -m ml.eval_plots
 cd web
 npm install
 ```
@@ -51,6 +52,7 @@ Model inputs **never** include `LAD`, `LCX`, `RCA`, or `Cath` columns (see `ml/c
 | `api/` | FastAPI backend |
 | `web/` | React + React Three Fiber dashboard |
 | `docs/report.md` | Technical report (export to PDF for submission) |
+| `docs/figures/` | OOF ROC & confusion matrices (`python -m ml.eval_plots`) |
 
 ## Demo video checklist
 
